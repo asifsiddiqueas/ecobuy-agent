@@ -1,0 +1,14 @@
+[
+  {
+    "input": "EcoClean, Organic, contains Formaldehyde",
+    "expected_toxin_alert": true,
+    "expected_greenwash_alert": true,
+    "chemical_match": "Formaldehyde"
+  },
+  {
+    "input": "Pure natural water, 100% organic spring",
+    "expected_toxin_alert": false,
+    "expected_greenwash_alert": true,
+    "chemical_match": null
+  }
+]
